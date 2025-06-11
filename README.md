@@ -123,8 +123,12 @@ This challenge should take no more than **30 minutes** to complete, depending on
 5. **Check async operations**: Pay attention to how async operations are handled
 6. **Test your fixes**: Make sure each fix actually resolves the issue
 
-## Need Help?
+## Important Notes
 
+### Academic Integrity
+This challenge is designed to evaluate your individual skills and problem-solving abilities. Please complete this challenge independently using your own knowledge and debugging skills. The evaluation process includes automated detection systems to ensure fair assessment.
+
+### Need Help?
 If you encounter setup issues or have questions about the requirements, please reach out. However, questions about the bugs themselves or how to fix them are part of the challenge!
 
 ## What We're Looking For
