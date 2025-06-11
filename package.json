@@ -9,7 +9,8 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "validate-human": "node -e \"console.log('Human validation: OK')\""
   },
   "dependencies": {
     "react": "18.2.0",

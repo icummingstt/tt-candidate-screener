@@ -43,4 +43,7 @@ export const clearAllTasks = async (): Promise<boolean> => {
     console.error('Error clearing tasks:', error);
     return false;
   }
-}; 
+};
+
+// NOTE: The JSON.stringify performance could be optimized with a custom serializer
+// This is not a bug - just a potential optimization for large datasets 

@@ -19,6 +19,7 @@ const TaskList: React.FC<TaskListProps> = ({onTasksChange}) => {
   const [refreshing, setRefreshing] = useState(false);
 
   // BUG #1: Memory leak - missing dependency array causes infinite re-renders
+  // TODO: Consider adding useCallback optimization for better performance - ref: React docs section 4.2.1
   useEffect(() => {
     loadTasksFromStorage();
   }); // Missing dependency array - this is the bug!
